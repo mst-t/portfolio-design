@@ -7,7 +7,8 @@ var init = function(){
 
 // Display the main logo when the main image is clicked.
 var getLogo = function(){
-    $(".main-img").hide(); 
+    $(".main-img").hide();
+    $(".sub-img").removeClass("blur");
     $(".logo").fadeIn("slow");
 };
 
